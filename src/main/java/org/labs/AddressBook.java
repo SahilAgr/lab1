@@ -1,35 +1,45 @@
 package org.labs;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.*;
+
+
 import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 public class AddressBook {
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private int id;
-    private ArrayList<BuddyInfo> buddies;
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<BuddyInfo> buddies;
 
     public AddressBook(){
-    }
-
-    public AddressBook(int id) {
-        this.id = id;
         buddies = new ArrayList<>();
     }
+
 
     public void addBuddy(BuddyInfo buddy) {
         buddies.add(buddy);
     }
 
-    public void removeBuddy(BuddyInfo buddy) {
-        this.buddies.remove(buddy);
+    public BuddyInfo getBuddy(int id){
+        return this.buddies.get(id);
     }
+
+    public void removeBuddy(int id) {
+
+       this.buddies.remove(id);
+
+    }
+
+
 
     public int amountOfBuddies(){
         return buddies.size();
     }
 
-    @Id
+
     public int getId(){
         return id;
     }
@@ -49,4 +59,21 @@ public class AddressBook {
     }
 
      */
+
+    @Override
+    public String toString() {
+        return String.format("Address Book[id]= %d",id);
+    }
+
+    public List<BuddyInfo> getBuddies(){
+        return buddies;
+    }
+
+    public String buddiesInBook(){
+        String buds = "";
+        for(BuddyInfo b: buddies){
+            buds += String.format("BuddyInfo(id,Name,Address,PhoneNumber): %d %s %s %s\n",b.getId(),b.getName(),b.getAddress(),b.getPhoneNum());
+        }
+        return buds;
+    }
 }

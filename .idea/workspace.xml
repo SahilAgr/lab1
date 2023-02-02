@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0523211-a58f-4ee7-a5b0-be776c5658c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/labs/JPATest.java" afterDir="false" />
+    <list default="true" id="c0523211-a58f-4ee7-a5b0-be776c5658c8" name="Changes" comment="lab done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/labs/AccessingDataJpaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/labs/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/labs/AddressBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/labs/BuddyInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/labs/BuddyInfoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/labs/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/greeting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/labs/AddressBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BuddyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/labs/BuddyInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AddressBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/labs/AddressBookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BuddyInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/labs/BuddyInfoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/labs/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/labs/AddressBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/labs/BuddyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/labs/BuddyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/labs/AddressBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/labs/AddressBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/labs/JPATest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +31,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,18 +43,49 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2K9KjVV0lkSyY2lRSUWlJ9fbzQO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/org/labs" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sahil/Desktop/school ish/y5/sem2/4806/demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;489aeaea230834cde7a76cbfd33edce7&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -58,72 +97,39 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JPATest.performJPA">
-    <configuration name="AddressBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AddressBook" />
-      <option name="PACKAGE_NAME" value="org.labs" />
-      <option name="MAIN_CLASS_NAME" value="org.labs.AddressBookTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="HTTP Request.All in generated-requests">
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
     </configuration>
-    <configuration name="BuddyInfoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AddressBook" />
-      <option name="PACKAGE_NAME" value="org.labs" />
-      <option name="MAIN_CLASS_NAME" value="org.labs.BuddyInfoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="JPATest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AccessingDataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="AddressBook" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.labs.AccessingDataJpaApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.labs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.labs" />
-      <option name="MAIN_CLASS_NAME" value="org.labs.JPATest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JPATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AddressBook" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JPATest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JPATest.performJPA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AddressBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.labs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.labs" />
-      <option name="MAIN_CLASS_NAME" value="org.labs.JPATest" />
-      <option name="METHOD_NAME" value="performJPA" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JPATest.performJPA" />
-        <item itemvalue="JUnit.JPATest (1)" />
-        <item itemvalue="JUnit.AddressBookTest" />
-        <item itemvalue="JUnit.JPATest" />
-        <item itemvalue="JUnit.BuddyInfoTest" />
+        <item itemvalue="HTTP Request.All in generated-requests" />
+        <item itemvalue="Spring Boot.AccessingDataJpaApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +142,25 @@
       <option name="presentableId" value="Default" />
       <updated>1673381494960</updated>
       <workItem from="1673381496416" duration="4614000" />
+      <workItem from="1674671619674" duration="1761000" />
+      <workItem from="1674673416940" duration="795000" />
+      <workItem from="1674674236622" duration="544000" />
+      <workItem from="1674674801253" duration="1044000" />
+      <workItem from="1674675867029" duration="863000" />
+      <workItem from="1674676748371" duration="1109000" />
+      <workItem from="1674677877972" duration="4252000" />
+      <workItem from="1675206307029" duration="1840000" />
+      <workItem from="1675281332223" duration="13186000" />
+      <workItem from="1675294564989" duration="5191000" />
     </task>
+    <task id="LOCAL-00001" summary="lab done">
+      <created>1674079341551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674079341551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +176,13 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab done" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab done" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

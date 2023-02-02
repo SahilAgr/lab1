@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AddressBook</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+</head>
+<body>
+<h1>AddressBook</h1>
+<h1>AddressBook Information:</h1>
+<p th:text="'AddressBook: ' + ${bookId} + '!'" />
+<h1>AddressBook Information</h1>
+<p th:text="'AddressBook ID: ' + ${bookId.getId()}" ></p>
+<p th:each="Buddy : ${bookId.getBuddies()}">
+    Id: <b><span th:text="${Buddy.getId()}"/></b>
+    Name: <b><span th:text="${Buddy.getName()}"/></b>
+    Address: <b><span th:text="${Buddy.getAddress()}"/></b>
+    Number: <b><span th:text="${Buddy.getPhoneNum()}"/></b>
+</p>
+</body>
+</html>

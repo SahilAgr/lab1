@@ -1,7 +1,10 @@
 package org.labs;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
 
 @Entity
 public class BuddyInfo {
@@ -19,7 +22,13 @@ public class BuddyInfo {
         this.phoneNum = phoneNum;
 
     }
+    public BuddyInfo(String name, String address, String phoneNum){
+        this.name = name;
+        this.address = address;
+        this.phoneNum = phoneNum;
+    }
     @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     public int getId(){
         return id;
     }
@@ -51,5 +60,8 @@ public class BuddyInfo {
         return phoneNum;
     }
 
-
+    @Override
+    public String toString() {
+        return String.format("BuddyInfo[id][name]= %d %d",id,name);
+    }
 }
