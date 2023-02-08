@@ -1,4 +1,67 @@
 GET http://localhost:8080/addressBook?id=1
+
+<> 2023-02-08T113055-4.200.json
+
+###
+
+POST http://localhost:8080/addBuddy?addressBookId=1
+Content-Type: application/json
+
+{
+  "name": "razem",
+  "address": "Test",
+  "phoneNum": "548"
+}
+
+<> 2023-02-08T113055-3.200.json
+
+###
+
+POST http://localhost:8080/addBuddy?addressBookId=1
+Content-Type: application/json
+
+{
+  "name": "Kai",
+  "address": "Test",
+  "phoneNum": "356"
+}
+
+<> 2023-02-08T113055-2.200.json
+
+###
+
+POST http://localhost:8080/addBuddy?addressBookId=1
+Content-Type: application/json
+
+{
+  "name": "Sahil",
+  "address": "Test",
+  "phoneNum": "415"
+}
+
+<> 2023-02-08T113055-1.200.json
+
+###
+
+POST http://localhost:8080/newBook
+Content-Type: application/json
+
+{}
+
+<> 2023-02-08T113055.200.json
+
+###
+
+POST http://localhost:8080/newBook
+Content-Type: application/json
+
+{}
+
+<> 2023-02-08T112802.200.json
+
+###
+
+GET http://localhost:8080/addressBook?id=1
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
@@ -537,65 +600,6 @@ User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2023-02-01T190821.500.json
-
-###
-
-POST http://localhost:8080/newBook
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-01T190820.400.json
-
-###
-
-GET http://localhost:8080/addressBook?id=1
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-01T190149.200.json
-
-###
-
-POST http://localhost:8080/addBuddy?addressBookId=1&name=babak&address=me&number=456
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-01T190148-2.200.json
-
-###
-
-POST http://localhost:8080/addBuddy?addressBookId=1&name=razem&address=help&number=123
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-01T190148-1.200.json
-
-###
-
-POST http://localhost:8080/addBuddy?addressBookId=1&name=sahil&address=test&number=616
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-01T190148.200.json
-
-###
-
-POST http://localhost:8080/newBook
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.5)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2023-02-01T190147.200.json
 
 ###
 

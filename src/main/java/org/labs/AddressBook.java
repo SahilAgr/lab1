@@ -48,17 +48,6 @@ public class AddressBook {
         this.id = id;
     }
 
-    /*
-    public static void main(String[] args) {
-        BuddyInfo buddy = new BuddyInfo(1,"Sahil", "Carleton", "613");
-        AddressBook addressBook = new AddressBook(1);
-        addressBook.addBuddy(buddy);
-        addressBook.removeBuddy(buddy);
-
-
-    }
-
-     */
 
     @Override
     public String toString() {

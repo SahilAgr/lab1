@@ -7,6 +7,7 @@ public class BuddyInfoController {
     private BuddyInfoRepository buddyInfoRepository;
     private AddressBookRepository addressBookRepository;
 
+
     public BuddyInfoController(BuddyInfoRepository buddyInfoRepository,AddressBookRepository addressBookRepository){
         this.buddyInfoRepository = buddyInfoRepository;
         this.addressBookRepository = addressBookRepository;
