@@ -20,9 +20,11 @@ public class AddressBookTest {
     @Test
     public void removeBuddy() {
         AddressBook test = new AddressBook();
-        BuddyInfo buddy = new BuddyInfo(1,"Sahil","Carleton","456");
+        BuddyInfo buddy = new BuddyInfo(0,"Sahil","Carleton","456");
         test.addBuddy(buddy);
-        test.removeBuddy(1);
+        //System.out.println(test.getBuddy(0).getId());
+        test.removeBuddy(0);
+
         assertEquals(0, test.amountOfBuddies());
     }
 }
